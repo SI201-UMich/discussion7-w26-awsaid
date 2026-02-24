@@ -80,6 +80,8 @@ def calculate_avg_price_by_neighbourhood_group_and_room(listings):
 
     for key in avg_prices:
         avg_prices[key] /= counts[key]
+    
+    return avg_prices
 
 
 
